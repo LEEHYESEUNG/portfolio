@@ -16,7 +16,7 @@
     .desc{
         display: block;
         font-family: 'IBM Plex Sans KR', sans-serif;
-        font-size: clamp(25px,3vw,45px);
+        font-size: clamp(25px,4.8vw,45px);
         color: #1B1B1B;
         line-height: 1.4;
         font-weight: 500;
@@ -136,6 +136,11 @@
 }
 
 
+@media (max-device-width : 1366px) {
+    .footer{
+        height: 80vh;
+    }
+}
 
 @media (max-width: 768px){
     .footer{
