@@ -106,7 +106,7 @@ body {
 }
 .intro svg text {
   font-weight: bold;
-  font-size: clamp(2.5em, 10vw, 13em);
+  font-size: clamp(2.4em, 9vw, 12em);
   text-transform: uppercase;
   stroke-dasharray: 400px;
   stroke-dashoffset: 400px;
