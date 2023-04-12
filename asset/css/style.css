@@ -610,7 +610,11 @@ h1 {
   transition: 0.2s;
   font-family: "IBM Plex Sans KR", "Roboto Condensed";
 }
-
+@media (max-width: 1020px) {
+  .circle {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .project-list .project-item .use-box {
     flex-wrap: wrap;
