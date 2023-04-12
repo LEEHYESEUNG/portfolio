@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
