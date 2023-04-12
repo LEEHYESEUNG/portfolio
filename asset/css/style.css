@@ -280,7 +280,7 @@ h1 {
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+@media (max-device-width: 1366px) {
   .hashtag-area {
     gap: 15px;
   }
@@ -447,6 +447,11 @@ h1 {
   transform: scale(1.5);
 }
 
+@media (max-device-width: 1366px) {
+  .footer {
+    height: 80vh;
+  }
+}
 @media (max-width: 768px) {
   .footer {
     height: 70vh;
@@ -611,7 +616,7 @@ h1 {
   font-family: "IBM Plex Sans KR", "Roboto Condensed";
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+@media (max-device-width: 1366px) {
   .circle {
     display: none;
   }
