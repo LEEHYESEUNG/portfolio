@@ -366,7 +366,7 @@ h1 {
   text-align: center;
   border-radius: 10px;
   padding: 0;
-  box-shadow: 3px 3px 10px;
+  box-shadow: 3px 3px 10px #1B1B1B;
   background: #fff;
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
